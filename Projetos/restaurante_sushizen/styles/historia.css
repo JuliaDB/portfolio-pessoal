@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+/* Imagens */
+img {
+    border-radius: 10px;
+    height: auto;
+}
+
+/* Imagens de Destaque */
+.featured-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.featured-images img {
+    max-width: 45%;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: orangered;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ada7a7;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+/* Galeria de Imagens */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}

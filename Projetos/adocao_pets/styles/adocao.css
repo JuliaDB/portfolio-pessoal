@@ -1,0 +1,162 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #ff3f3f;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #ff3f3f;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff3f3f;
+}
+
+/* Imagens */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Parágrafos e Títulos */
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8em;
+    color: #ff6f61;
+    margin: 20px 0;
+}
+
+/* Formulário de Contato */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff3f3f;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff6f61;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #ff3f3f;
+    font-family: 'Pacifico', cursive;
+}

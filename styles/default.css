@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(199, 143, 118);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    width: 100%;
+}
+
+/* Estilos para os itens da lista de navegação */
+header li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+/* Estilos para os links dentro do cabeçalho */
+header a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* Estilos para o hover dos links no cabeçalho */
+header a:hover {
+    color: rgb(205, 199, 199);
+}
+
+/* Estilos para as imagens */
+img {
+    border-radius: 10px; 
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+/* Estilos para os títulos h1*/
+h1 {
+    font-family: freemono, monospace;
+    color: rgb(194, 83, 83);
+    font-size: 25px;
+}
+
+/* Estilos para os títulos h2*/
+h2 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(196, 138, 111);
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Estilos para os parágrafos */
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Estilos para a classe space */
+.space {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilos para os cartões */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Estilos para o estado hover dos cartões */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #ffe4e1;
+    color: #ff69b4;
+    text-align: center;
+    padding: 10px;
+}
